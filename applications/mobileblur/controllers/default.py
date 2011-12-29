@@ -14,7 +14,7 @@ def index():
                 feeds.append(feed)
                 break
 
-    feeds.sort(key=lambda f: str.lower(f["feed_title"]))
+    feeds.sort(key=lambda f: f["feed_title"].lower)
     return dict(feeds=feeds, threshold=threshold)
 
 
