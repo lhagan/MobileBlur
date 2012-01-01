@@ -1,5 +1,6 @@
 .DS_Store
 applications/admin/private/
+*~*
 *.pyc
 *.pyo
 *.bak
